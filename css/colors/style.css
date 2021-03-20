@@ -1,0 +1,37 @@
+.prvi{
+    background-color: DarkTurquoise;
+    color: black;
+    opacity: 50%;
+    font-family: Georgia, serif;
+}
+.drugi{
+    background-color: rgb(28, 26, 161 , 50%);
+    color: rgb(100, 205, 209);
+    
+}
+.treci{
+    background-color: #24abad;
+   color: red;
+}
+#left{
+    opacity: 50%;
+}
+#left img{
+    width: 500px;
+    height: 500px;
+}
+.kolona1{
+    background-color: aliceblue;
+}
+.kolona2{
+    background-color:hotpink ;
+}
+.kolona3{
+    background-color:rgb(145, 0, 125) ;
+}
+.kolona4{
+    background-color:rgb(10, 143, 24) ;
+}
+.kolona5{
+    background-color:rgb(148, 14, 5) ;
+}
