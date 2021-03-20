@@ -14,11 +14,14 @@ body{
     background-color: rgb(28, 26, 161 , 50%);
     color: rgb(100, 205, 209);
     font-style: oblique;
+    font-family: 'Times New Roman', serif;
+
     
 }
 .treci{
     background-color: #24abad;
    color: red;
+   font-family: Tahoma, sans-serif;
 }
 #left{
     opacity: 50%;
