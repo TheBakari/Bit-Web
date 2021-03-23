@@ -1,0 +1,104 @@
+@font-face{
+    font-family: 'Ranchers', cursive;
+    src: url(fonts/Ranchers-Regular.ttf);
+    
+}
+body{
+    
+    font-size: xx-large;
+    font-weight:300;
+    font-family: 'Ranchers', cursive;
+}
+.prvi{
+    background-color: DarkTurquoise;
+    color: black;
+    opacity: 50%;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.drugi{
+    background-color: rgb(28, 26, 161 , 50%);
+    color: rgb(100, 205, 209);
+    font-style: oblique;
+    
+    
+
+    
+}
+.treci{
+    background-color: #24abad;
+   color: red;
+   font-family: 'Train One', cursive;
+   font-family: 'Ranchers', cursive;
+  
+}
+#left{
+    opacity: 50%;
+}
+#left img{
+    width: 500px;
+    height: 500px;
+}
+.kolona1{
+    background-color: aliceblue;
+}
+.kolona2{
+    background-color:hotpink ;
+}
+.kolona3{
+    background-color:rgb(145, 0, 125) ;
+}
+.kolona4{
+    background-color:rgb(10, 143, 24) ;
+}
+.kolona5{
+    background-color:rgb(148, 14, 5) ;
+}
+span{
+    font-style: italic;
+    font-weight: 900;
+}
+
+/* LOWERCASE UPERCASE*/
+.uppercase{
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: chartreuse;
+    color: crimson;
+}
+.lowercase{
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+
+/*Line/Word/Letter Spacing*/
+
+.line{
+    letter-spacing: 5px;
+    text-align: left;
+}
+.word{
+    line-height: 200%;
+    text-align: right;
+}
+.letter{
+    text-align: center;
+}
+
+
+
+a{
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color:blue
+}
