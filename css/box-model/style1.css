@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    color: navy;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+#glavni-naslov{
+    font-size: 26px;
+    text-align: right;
+    background-color: navy;
+    color: #ccf;
+    margin: 0px 10px 4px;
+    border-top: 8px solid #88c;
+    border-bottom   : 8px solid #88c;
+}
+
+.pasus{
+   border-left: 10px solid #88c ;
+  padding-left: 10px;
+   
+}
+.blok{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.aside{
+    border: 2px solid red;
+    border-width: 2px 4px 4px 2px;
+    background-color: rgb(236, 236, 178);
+    width: 30%;
+    margin-left: auto;
+    margin-right: 5px;
+    
+}
+.crveno{
+    margin-right: auto;
+    font-size: 80%;
+    margin: 16px;
+    color:red;
+}
+
+h2 {
+    border-bottom: 5px dotted #88d;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tabela{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 2px solid black;
+}
+table,td {
+    border: 1px solid black;
+  }

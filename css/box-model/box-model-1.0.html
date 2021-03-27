@@ -1,0 +1,76 @@
+<!-- Size
+Create a page containing two paragraphs.
+The first paragraph should have a yellow background
+The second paragraph should have a red background
+Add a lot of text to both of them
+
+Fixed size
+The first paragraph has width of 400px and height of 500px
+The second should have 600px width and 300px height
+Paragraph text should not overflow the box
+
+Dynamic size
+Max width of the first paragraph should be 300px
+Max height of the second one should be 200px
+The first paragraph text should be cut if it's bigger than the box
+The second paragraph text can overflow the paragraph (text can be bigger than the paragraph box)
+   
+Borders
+Create three paragraphs on the page
+All of them should have a yellow background
+Each paragraph should have a 5px thick border
+The first and the last paragraphs should have red dashed borders
+The middle one should have green solid borders
+
+Padding
+Use the previous example or create three new paragraphs with bg color
+Set padding for each paragraph
+The first and the third should have a 50px padding around all sides
+The middle one should have a 50px top padding only
+
+
+Margins
+Use the previous example and add margins to each element
+The first should be 300px wide and should have 50px margins around all sides
+The second should be 400px wide and it should be horizontally centered on the screen
+The third one should be 200px wide and should have a 100px wide left margin
+ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Task 1</h1>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem itaque dolorum dicta soluta in adipisci! Eius aliquam numquam vel, fugiat odio quis totam nulla, id est nam, labore animi!
+        Similique, optio modi quod quibusdam doloremque tempora totam harum incidunt explicabo ipsa laborum cupiditate temporibus, atque voluptate dolorum commodi iure? Quisquam, sapiente. Repellendus minus nostrum quos a suscipit ducimus consequuntur.
+        Perspiciatis magnam quisquam, debitis ipsam molestias tenetur beatae nemo dolorem, quos veritatis id quibusdam repudiandae maiores officiis quis ipsum velit cumque sint laudantium. Saepe optio quisquam ipsam, commodi quibusdam deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem itaque dolorum dicta soluta in adipisci! Eius aliquam numquam vel, fugiat odio quis totam nulla, id est nam, labore animi!
+        Similique, optio modi quod quibusdam doloremque tempora totam harum incidunt explicabo ipsa laborum cupiditate temporibus, atque voluptate dolorum commodi iure? Quisquam, sapiente. Repellendus minus nostrum quos a suscipit ducimus consequuntur.
+        Perspiciatis magnam quisquam, debitis ipsam molestias tenetur beatae nemo dolorem, quos veritatis id quibusdam repudiandae maiores officiis quis ipsum velit cumque sint laudantium. Saepe optio quisquam ipsam, commodi quibusdam deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem itaque dolorum dicta soluta in adipisci! Eius aliquam numquam vel, fugiat odio quis totam nulla, id est nam, labore animi!
+        Similique, optio modi quod quibusdam doloremque tempora totam harum incidunt explicabo ipsa laborum cupiditate temporibus, atque voluptate dolorum commodi iure? Quisquam, sapiente. Repellendus minus nostrum quos a suscipit ducimus consequuntur.
+        Perspiciatis magnam quisquam, debitis ipsam molestias tenetur beatae nemo dolorem, quos veritatis id quibusdam repudiandae maiores officiis quis ipsum velit cumque sint laudantium. Saepe optio quisquam ipsam, commodi quibusdam deserunt.</p>
+        <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem itaque dolorum dicta soluta in adipisci! Eius aliquam numquam vel, fugiat odio quis totam nulla, id est nam, labore animi!
+            Similique, optio modi quod quibusdam doloremque tempora totam harum incidunt explicabo ipsa laborum cupiditate temporibus, atque voluptate dolorum commodi iure? Quisquam, sapiente. Repellendus minus nostrum quos a suscipit ducimus consequuntur.
+            Perspiciatis magnam quisquam, debitis ipsam molestias tenetur beatae nemo dolorem, quos veritatis id quibusdam repudiandae maiores officiis quis ipsum velit cumque sint laudantium. Saepe optio quisquam ipsam, commodi quibusdam deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem itaque dolorum dicta soluta in adipisci! Eius aliquam numquam vel, fugiat odio quis totam nulla, id est nam, labore animi!
+            Similique, optio modi quod quibusdam doloremque tempora totam harum incidunt explicabo ipsa laborum cupiditate temporibus, atque voluptate dolorum commodi iure? Quisquam, sapiente. Repellendus minus nostrum quos a suscipit ducimus consequuntur.
+            Perspiciatis magnam quisquam, debitis ipsam molestias tenetur beatae nemo dolorem, quos veritatis id quibusdam repudiandae maiores officiis quis ipsum velit cumque sint laudantium. Saepe optio quisquam ipsam, commodi quibusdam deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem itaque dolorum dicta soluta in adipisci! Eius aliquam numquam vel, fugiat odio quis totam nulla, id est nam, labore animi!
+            Similique, optio modi quod quibusdam doloremque tempora totam harum incidunt explicabo ipsa laborum cupiditate temporibus, atque voluptate dolorum commodi iure? Quisquam, sapiente. Repellendus minus nostrum quos a suscipit ducimus consequuntur.
+            Perspiciatis magnam quisquam, debitis ipsam molestias tenetur beatae nemo dolorem, quos veritatis id quibusdam repudiandae maiores officiis quis ipsum velit cumque sint laudantium. Saepe optio quisquam ipsam, commodi quibusdam deserunt.</p>
+    </div>
+
+    <div>
+        <h1>Borders</h1>
+        <p class="border p2" id="prvi">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ducimus esse totam! Reprehenderit doloremque dolores rerum ut voluptatem iure consequatur quidem labore vitae quod consequuntur, temporibus eveniet quas cum odit.</p>
+        <p class="border p1" id="drugi">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ducimus esse totam! Reprehenderit doloremque dolores rerum ut voluptatem iure consequatur quidem labore vitae quod consequuntur, temporibus eveniet quas cum odit.</p>
+        <p class="border p2" id="treci">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ducimus esse totam! Reprehenderit doloremque dolores rerum ut voluptatem iure consequatur quidem labore vitae quod consequuntur, temporibus eveniet quas cum odit.</p>
+    </div>
+</body>
+</html>

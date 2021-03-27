@@ -1,0 +1,42 @@
+#p1{
+    background-color: yellow;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    max-width: 300px;
+}
+#p2{
+    background-color: red;
+    overflow: scroll;
+    width: 600px;
+    height: 200px;
+    max-height: 200px;
+}
+
+.border{
+    background-color: yellow;
+    border: 5px solid black;
+}
+.p2{
+    border: dashed red ;
+    padding: 50px;
+}
+.p1{
+    border: 50px solid green;
+    padding: 50px 0 0;
+
+}
+/*margins*/
+#prvi{
+    width: 300px;
+    margin: 50px;
+}
+#drugi{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#treci{
+    width: 200px;
+    margin: 0 0 100px;
+}
