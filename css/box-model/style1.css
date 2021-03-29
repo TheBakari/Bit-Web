@@ -1,62 +1,105 @@
-body{
+body {
     font-family: sans-serif;
     color: navy;
     background-color: #eee;
-    margin: 0;
-    padding: 0;
-}
-#glavni-naslov{
-    font-size: 26px;
+    margin: 0px;
+  }
+  h1 {
+    font-size: 26pt;
+    font-variant-caps: small-caps;
     text-align: right;
     background-color: navy;
     color: #ccf;
-    margin: 0px 10px 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
     border-top: 8px solid #88c;
-    border-bottom   : 8px solid #88c;
-}
-
-.pasus{
-   border-left: 10px solid #88c ;
-  padding-left: 10px;
-   
-}
-.blok{
+    border-bottom: 8px solid #88c;
+  }
+  .pasus {
     width: 80%;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border-left: 10px #ccf solid;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
-}
-
-
-
-.aside{
+  }
+  .kom {
+    width: 30%;
+    margin-left: auto;
+    text-align: left;
+    padding: 16px;
+    font-size: 80%;
+    margin-right: 5px;
     border: 2px solid red;
     border-width: 2px 4px 4px 2px;
     background-color: rgb(236, 236, 178);
-    width: 30%;
-    margin-left: auto;
-    margin-right: 5px;
-    
-}
-.crveno{
-    margin-right: auto;
-    font-size: 80%;
-    margin: 16px;
-    color:red;
-}
-
-h2 {
+    color: red;
+  }
+  h2 {
     border-bottom: 5px dotted #88d;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.tabela{
+  }
+  .tabela {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: solid black 4px;
+    background-color: #fde;
+    border-collapse: collapse;
+  }
+  .un {
+    border-right: 1px solid #a88;
+    border-top: black solid 2px;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+  }
+  .plus {
+    border-top: 0px;
+    color: cornsilk;
+    background-color: rgb(66, 68, 160);
+  }
+  .drugidiv {
+    text-align: center;
+    font-weight: bold;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
     margin-bottom: 16px;
-    border: 2px solid black;
-}
-table,td {
-    border: 1px solid black;
+    width: 450px;
+    border: green 15px double;
+    color: green;
+    padding: 10px;
   }
+  .trecidiv {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: serif;
+    font-style: italic;
+  }
+  a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+  }
+  .b {
+    font-weight: bold;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border-left: 10px #ccf solid;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

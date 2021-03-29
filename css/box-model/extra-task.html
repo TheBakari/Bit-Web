@@ -1,63 +1,112 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <h1>Glavni naslov</h1>
+    <div class="prvidiv">
+      <p class="pasus">
+        Cela strana treba da ima font sans-serif, boje navy i boju pozadine
+        #eee. Iskljucite marginu stranice.
+      </p>
+      <p class="pasus">
+        Glavni naslov treba da bude velicine 26pt, tipa small-caps sa tekstom
+        poravnatim udesno. Boja pozadine je navy, a boja teksa #ccf. Unutrasnje
+        margine po vertikali treba da budu 4px, a leva i desna po 10px. Gornju
+        marginu treba iskljuciti. Sa donje i gornje strane treba da postoji
+        border debljine 8px, boje #88c.
+      </p>
+      <p class="pasus">
+        Svi pasusi u tekstu treba da budu sirine 80%. Gornja margina ne postoji,
+        a donja je jednaka velicini fonta. Pasus treba da bude centriran kao
+        blok, a tekst u njemu poravnat po obe margine. Pasusi sa leve strane
+        imaju svetlo-plavu liniju debljine 10px, a tekst je odvojen od linije za
+        isto toliko.
+      </p>
+    </div>
     <div>
-        <h1 id="glavni-naslov">Glavni naslov</h1>
+      <p class="kom">
+        Komenar (aside) treba da bude sirine 30%, s tim sto je ceo poravnat po
+        desnoj strani (dok je tekst unutar komentara poravnat po levoj).
+        Unutrasnja margina treba da bude velicine fonta, a sam tekst velicine
+        80% od velicine fonta kakva je inace. Desna margina treba da bude 5px.
+        Okvir treba da bude crvene boje, debljine 2px, ali dole i desno 4px.
+        Boja pozadine treba da bude svetlo zuta, a boja teksta ista kao boja
+        okvira.
+      </p>
     </div>
-    <div class="blok">
-        <p class="pasus">Cela strana treba da ima font sans-serif, boje navy i boju pozadine #eee. Iskljucite mragin stranice</p>
-        <p class="pasus">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia ut enim consequatur, placeat sapiente maiores ipsum fuga officiis expedita unde adipisci odio quo tempora dignissimos hic nostrum! Necessitatibus, ipsum!</p>
-        <p class="pasus"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ut dolorem necessitatibus ipsam. Ea, a architecto dignissimos, earum voluptatem placeat nihil, voluptas minus rem natus velit? Temporibus consequuntur officia veniam?</p>
+    <p class="prvidiv pasus">
+      Podnaslov treba da ima samo donji okvir debljine 5px, tackaste linije boje
+      #88d. Njegova sirina treba da bude 90%.
+    </p>
+    <h2>Podnaslov</h2>
+    <p class="prvidiv pasus">
+      Napravite tabelu kao na slici. Tabela treba da bude postavljena na
+      sredini, bez podesavanja sirine. Gornja i donja margina treba da budu
+      jednake velicini fonta. Okvir oko cele tabele treba da bufde crne boje,
+      debljine 4px. Boja pozadine za tabelu treba da bude #fde. Vertikalni
+      okviri unutar tabele treba da budu 1px boje #a88, a horizontalni crne boje
+      debljine 2px. Celije tabele treba da imaju vertikalne unutrasnje margine
+      od 3px i horizontalne od 9px.
+    </p>
+    <table class="tabela">
+      <tr>
+        <th class="un plus">User</th>
+        <th class="un plus">Ime</th>
+        <th class="un plus">Prezime</th>
+      </tr>
+      <tr>
+        <th class="un">jocca</th>
+        <td class="un">Jovan</td>
+        <td class="un">Canic</td>
+      </tr>
+      <tr>
+        <th class="un">mitke</th>
+        <td class="un">Dejan</td>
+        <td class="un">Mitrovic</td>
+      </tr>
+      <tr>
+        <th class="un">aniche</th>
+        <td class="un">Ana</td>
+        <td class="un">Radic</td>
+      </tr>
+    </table>
+    <div class="prvidiv">
+      <p class="pasus">
+        Modifikuj tabelu tako da prvi red izgleda kao zaglavlje.
+      </p>
     </div>
-    <div class="aside">
-        <p class="crveno">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi architecto voluptas voluptatum excepturi cupiditate consequuntur tempore corporis ratione, praesentium sit reprehenderit unde id quasi optio minus ducimus harum vitae asperiores.
-        Enim cum nihil, quisquam soluta aliquam mollitia architecto reiciendis error voluptatibus dignissimos dolor expedita laborum eos repellat obcaecati dolore odit ipsam sed quibusdam magni magnam quo itaque. Rem, obcaecati sequi!</p>
+    <div class="drugidiv">
+      <p>
+        DIV blok treba da bude na sredini, tekst centriran i podebljan. Gornja i
+        donja margina su velicine fonta. Ukupna sirina bloka treba da bude
+        450px. Ovo treba da postignete znajuci da je debljina okvira 15px, a
+        Unutrasnja margina 10px. Za potrebe ovog zadatka nemojte koristiti
+        atribut box-sizing.
+      </p>
     </div>
-    <div class="blok">
-         <p class="pasus">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores aliquam hic aperiam impedit odit 
-        </p>
+    <div class="prvidiv">
+      <p class="pasus">
+        Konacno, treba da napravite listu linkova. Na slici mozete videti kako
+        lista treba da izgleda. Cela lista treba da bude sirine 70% i na
+        sredini. Gornja i donja margina su velicine fonta. Font stavki treba da
+        bude tipa serif i to kurzivan.Link treba da bude podebljan, crvene boje
+        i bez podvlacenja. Ovo su date adrese linkova.
+      </p>
     </div>
-    
-        <h2 class="podnaslov">Podnaslov</h2>
-    <div class="blok">
-        <p class="pasus">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus excepturi omnis in facilis labore magni quas hic vero! Nobis similique facere fugit? Nemo officia, tenetur eligendi cumque deserunt rem illum.
-            Tempora libero mollitia vitae iusto officiis est doloribus voluptate non assumenda? Possimus alias totam soluta dicta suscipit veritatis modi voluptatem quis tempora officia eius voluptas dolor rerum molestiae, temporibus nemo.
-            Quia sed sunt esse magni possimus vitae dolorem officiis similique, assumenda odit facilis impedit. Nisi, ipsa quidem, quas optio praesentium rem, dignissimos tempore expedita laudantium amet in! Animi, quae optio!
-            Voluptatibus temporibus aliquid consequuntur asperiores ipsa quod culpa distinctio obcaecati, tenetur repudiandae voluptates nostrum reprehenderit error ab expedita? Atque cum iure vel! Illo maiores vitae totam nulla fugiat, nihil iusto?
-        </p>
-        <table class="tabela">
-            <tr>
-                <th>User</td>
-                <th>Ime</th>
-                <th>Prezime</th>
-            </tr>
-            <tr>
-                <td>Jocca</td>
-                <td>Jovan</td>
-                <td>Caric</td>
-            </tr>
-            <tr>
-                <td>mitke</td>
-                <td>Dejan</td>
-                <td>Mitrovic</td>
-            </tr>
-            <tr>
-                <td>aniche</td>
-                <td>Ana</td>
-                <td>Radic</td>
-            </tr>
-        </table>
+    <div class="trecidiv">
+      <ul>
+        <li>HTML: <a href="#">Osnovna HTML tabela</a></li>
+        <li>CSS: <a href="#">CSS formatiranje tabela</a></li>
+        <li>CSS: <a href="#">CSS okviri</a></li>
+      </ul>
     </div>
-    
-    
-   
-</body>
+    <div class="prvidiv">
+      <p class="b">Cestitamo, probili ste do kraja zadatka!</p>
+    </div>
+  </body>
 </html>
