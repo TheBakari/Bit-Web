@@ -1,0 +1,43 @@
+.ul2{
+    list-style-type:square;
+}
+.ol1{
+    list-style-type: upper-alpha;
+}
+.ol2{
+    list-style-type:upper-roman;
+}
+.img1{
+    list-style-image: url('twitter.png');
+    
+}
+
+.marker
+{
+    width: 200px;
+}
+
+.img2{
+    list-style-position:inside;
+}
+table{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0 10px;
+}
+
+
+
+tr:hover{
+    background-color: yellow;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(214, 210, 210);
+   
+   }
+tr:nth-child(1) {
+    background-color: red;
+    color: white;
+   }
