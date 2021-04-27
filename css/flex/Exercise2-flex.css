@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 50px auto 0 auto;
+    color: white;
+}
+.isti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:20px;
+    margin: 10px 0;
+    
+}
+.jedan{
+    background-color: #fcdd9e;
+    width:200px;
+    height: 200px;
+    
+}
+.dva{
+    background-color: #faab8c; 
+    width:200px;
+    height: 200px;
+    
+}
+.tri{
+    background-color: #48464b; 
+    width:200px;
+    height: 200px;
+}
+.cetiri{
+    background-color: #c69897;
+    width:200px;
+    height: 200px;
+}
+.pet{
+    background-color: #48728f;
+    width:200px;
+    height: 200px;
+}
+.set{
+    background-color: coral;
+    width:200px;
+    height: 200px;
+}
