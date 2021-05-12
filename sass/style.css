@@ -1,0 +1,129 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d3dee9), color-stop(#cbdbec), color-stop(#c3d9ef), color-stop(#bad6f1), to(#b1d4f4));
+  background-image: linear-gradient(to right, #d3dee9, #cbdbec, #c3d9ef, #bad6f1, #b1d4f4);
+}
+
+fieldset,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+.rating {
+  border: none;
+  float: left;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label:before {
+  margin: 5px;
+  font-size: 12px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+  float: right;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ffd700;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+  color: #ffed85;
+}
+
+h3 {
+  margin: 0;
+}
+
+.card-container {
+  height: 350px;
+  background-size: cover;
+  width: 250px;
+  border-radius: 30px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 80px 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-image: url(http://www.loucademiadecinema.com.br/wp-content/uploads/2019/02/alita-battle-angel-5c50c0826d3c2-718x1024.jpg);
+}
+
+.card-container:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 100px;
+  width: calc(100% - 2rem);
+  border-radius: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  -webkit-box-shadow: 0px 2px 20px 0px #67676738;
+          box-shadow: 0px 2px 20px 0px #67676738;
+  padding: 0 1rem;
+}
+
+.card-title {
+  font-size: 15px;
+  text-align: start;
+  margin: 2px 0;
+}
+
+.card-actors {
+  font-size: 11px;
+  text-align: start;
+  margin: 0 0 2px 0;
+}
+/*# sourceMappingURL=style.css.map */
